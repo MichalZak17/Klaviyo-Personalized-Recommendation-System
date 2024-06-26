@@ -80,3 +80,11 @@ def forgot_password_view(request):
             messages.error(request, 'No account found with that email address.')
 
     return render(request, 'forgot_password.html')
+
+@login_required(login_url='login')
+def dashboard_view(request):
+    return render(request, 'dashboard.html')
+
+@login_required(login_url='login')
+def accounts_view(request):
+    return render(request, 'accounts.html')
