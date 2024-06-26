@@ -11,6 +11,9 @@ database.sqlite3
 # Visual Studio Code
 .vscode/
 
+# Static folders
+static/
+
 # Distribution / packaging
 .Python
 build/
