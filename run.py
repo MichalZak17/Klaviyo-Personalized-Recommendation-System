@@ -35,8 +35,8 @@ campaign = client.create_campaign(
     reply_to_email="reply-to@my-company.com",
     cc_email="cc@my-company.com",
     bcc_email="bcc@my-company.com",
-    included_audiences=["Y6nRLr"],
-    excluded_audiences=["UTd5ui"]
+    included_audiences=["V6Xw5s"],
+    excluded_audiences=["SFwzWk"]
 )
 print(campaign)
 
