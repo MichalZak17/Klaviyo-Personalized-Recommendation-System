@@ -27,7 +27,7 @@ print(client.get_all_products())
 
 campaign = client.create_campaign(
     name="My new campaign",
-    send_datetime="2022-11-08T00:00:00+00:00",
+    send_datetime="2024-11-08T00:00:00+00:00",
     subject="Buy our product!",
     preview_text="My preview text",
     from_email="store@my-company.com",
