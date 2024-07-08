@@ -70,7 +70,7 @@ class KlaviyoClient:
                         },
                         "options_throttled": {
                             "datetime": "2024-06-25T20:21:11.514Z",
-                            "throttle_percentage": 0
+                            "throttle_percentage": 10
                         },
                         "options_sto": { "date": "2024-06-25" }
                     },
